@@ -14,7 +14,7 @@ class Recording: NSObject {
 	var name: String
 	var timeCreated: String
 	var recordingLength: String
-	//Going to need to add a field for the actual audio file once I figure that outt
+	//Going to need to add a field for the actual audio file once I figure that out
 	
 	//MARK: Initialization
 	init?(name: String, timeCreated: String, recordingLength: String) {

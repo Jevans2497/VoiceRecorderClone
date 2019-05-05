@@ -14,6 +14,9 @@
 		AA6DB799227CE56800B16A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA6DB797227CE56800B16A74 /* LaunchScreen.storyboard */; };
 		AA6DB7A4227CE56800B16A74 /* VoiceRecorderCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB7A3227CE56800B16A74 /* VoiceRecorderCloneTests.swift */; };
 		AA6DB7AF227CE56800B16A74 /* VoiceRecorderCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB7AE227CE56800B16A74 /* VoiceRecorderCloneUITests.swift */; };
+		AA6DB7BD227CE62500B16A74 /* RecordingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB7BC227CE62500B16A74 /* RecordingsTableViewCell.swift */; };
+		AA6DB7BF227CE98700B16A74 /* Recording.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB7BE227CE98700B16A74 /* Recording.swift */; };
+		AA6DB7C1227CEB5A00B16A74 /* RecordingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA6DB7C0227CEB5A00B16A74 /* RecordingTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		AA6DB7AA227CE56800B16A74 /* VoiceRecorderCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoiceRecorderCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA6DB7AE227CE56800B16A74 /* VoiceRecorderCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceRecorderCloneUITests.swift; sourceTree = "<group>"; };
 		AA6DB7B0227CE56800B16A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA6DB7BC227CE62500B16A74 /* RecordingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingsTableViewCell.swift; sourceTree = "<group>"; };
+		AA6DB7BE227CE98700B16A74 /* Recording.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recording.swift; sourceTree = "<group>"; };
+		AA6DB7C0227CEB5A00B16A74 /* RecordingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 				AA6DB78C227CE56600B16A74 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 1;
 		};
 		AA6DB78C227CE56600B16A74 /* Products */ = {
 			isa = PBXGroup;
@@ -99,6 +106,9 @@
 			children = (
 				AA6DB78E227CE56600B16A74 /* AppDelegate.swift */,
 				AA6DB790227CE56600B16A74 /* ViewController.swift */,
+				AA6DB7BE227CE98700B16A74 /* Recording.swift */,
+				AA6DB7BC227CE62500B16A74 /* RecordingsTableViewCell.swift */,
+				AA6DB7C0227CEB5A00B16A74 /* RecordingTableViewController.swift */,
 				AA6DB792227CE56600B16A74 /* Main.storyboard */,
 				AA6DB795227CE56800B16A74 /* Assets.xcassets */,
 				AA6DB797227CE56800B16A74 /* LaunchScreen.storyboard */,
@@ -257,7 +267,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA6DB791227CE56600B16A74 /* ViewController.swift in Sources */,
+				AA6DB7C1227CEB5A00B16A74 /* RecordingTableViewController.swift in Sources */,
+				AA6DB7BD227CE62500B16A74 /* RecordingsTableViewCell.swift in Sources */,
 				AA6DB78F227CE56600B16A74 /* AppDelegate.swift in Sources */,
+				AA6DB7BF227CE98700B16A74 /* Recording.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
