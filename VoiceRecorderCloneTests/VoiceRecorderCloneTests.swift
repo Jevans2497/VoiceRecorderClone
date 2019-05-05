@@ -19,10 +19,23 @@ class VoiceRecorderCloneTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-    func testExample() {
-        // This is an example of a functional test case.
+    func testRecordingInitializationSuccess() {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+		let recordingPop = Recording.init(name: "Pop Song", timeCreated: "5:15AM", recordingLength: "00:08")
+			XCTAssertNotNil(recordingPop)
+		}
+
+	func testRecordingInitializationFails() {
+		let recordingRap = Recording.init(name: "", timeCreated: "6:43PM", recordingLength: "01:12")
+		XCTAssertNil(recordingRap)
+	}
+	
+	func testLoadSampleRecordingsSuccess() {
+		let rctv: RecordingTableViewController = RecordingTableViewController.init()
+		rctv.viewDidLoad()
+		XCTAssert(rctv.recordings.count == 3)
+	}
+	
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
