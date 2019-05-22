@@ -31,11 +31,10 @@ class VoiceRecorderCloneTests: XCTestCase {
 	}
 	
 	func testLoadSampleRecordingsSuccess() {
-		let rctv: RecordingTableViewController = RecordingTableViewController.init()
+		let rctv: HomeViewController = HomeViewController.init()
 		rctv.viewDidLoad()
 		XCTAssert(rctv.recordings.count == 3)
-	}
-	
+	}	
 
     func testPerformanceExample() {
         // This is an example of a performance test case.

@@ -13,8 +13,8 @@ class RecordingsTableViewCell: UITableViewCell {
     //MARK: Properties
     @IBOutlet weak var recordingNameLabel: UILabel!
     @IBOutlet weak var timeCreatedLabel: UILabel!
-    @IBOutlet weak var recordingLengthLabel: UILabel!
-    
+	@IBOutlet weak var recordingLengthLabel: UILabel!
+	
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
